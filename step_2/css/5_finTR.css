@@ -1,0 +1,85 @@
+body{
+    height: 100%;
+    font-size: 12px;
+    width: 95%;
+    margin: 10% auto;
+}
+p{
+    margin: 0;
+}
+body > aside:first-of-type{
+    float: left;
+    height: 500px;
+    display: inline-block;
+    margin: 0 1% 0 0;
+    width: 44%;
+}
+body > aside:nth-of-type(2){
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+}
+body > aside:nth-of-type(2) ul{
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+}
+body > aside:nth-of-type(2) ul li{
+    overflow: hidden;
+    height: 50px;
+    transition-duration: 2s;
+}
+body aside:nth-of-type(2) ul li p{
+    padding: 30px 0 0 0;
+    float: left; transition-duration: 2s;
+    text-align: right; width: 80%;
+} 
+body aside:nth-of-type(2) ul li p strong{
+    display: block;
+}
+body aside:nth-of-type(2) ul li a::before{
+    content: "+";
+}
+body aside:nth-of-type(2) ul li a{
+    text-decoration: none;
+    float: right; padding: 2%; color: white;
+    width: 15%; display: block;
+}
+body aside:nth-of-type(2) ul li:hover a::before{
+    content: ">";
+}
+body aside:nth-of-type(2) ul li:hover a{ padding: 30px 30px 0 0; color: black;
+}
+body > aside:first-of-type footer{
+    color: blue; padding: 3% 0;
+}
+body aside:nth-of-type(2) ul li:nth-of-type(1){background-color: cornflowerblue;}
+body aside:nth-of-type(2) ul li:nth-of-type(2){background-color: antiquewhite;}
+body aside:nth-of-type(2) ul li:nth-of-type(3){background-color: firebrick;}
+body aside:nth-of-type(2) ul li:nth-of-type(4){background-color: goldenrod;}
+body aside:nth-of-type(2) ul li:nth-of-type(5){background-color: greenyellow;}
+body aside:nth-of-type(2) ul li:nth-of-type(6){background-color: violet;}
+body aside:nth-of-type(2) ul li:nth-of-type(7){background-color: tomato;}
+body aside:nth-of-type(2) ul li:nth-of-type(1):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(2):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(3):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(4):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(5):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(6):hover{height: 300px;}
+body aside:nth-of-type(2) ul li:nth-of-type(7):hover{height: 300px;}
+
+body aside:nth-of-type(2) ul li:nth-of-type(1) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(2) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(3) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(4) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(5) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(6) p{opacity: 0;}
+body aside:nth-of-type(2) ul li:nth-of-type(7) p{opacity: 0;}
+
+body aside:nth-of-type(2) ul li:nth-of-type(1):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(2):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(3):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(4):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(5):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(6):hover p{opacity: 1;}
+body aside:nth-of-type(2) ul li:nth-of-type(7):hover p{opacity: 1;}
